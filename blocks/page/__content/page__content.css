@@ -1,0 +1,21 @@
+.page__content {
+  padding: 56px 0 92px;
+}
+
+@media screen and (max-width: 1140px) {
+  .page__content {
+    padding: 48px 0 92px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .page__content {
+    padding: 48px 0 88px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .page__content {
+    padding: 48px 0 64px;
+  }
+}
