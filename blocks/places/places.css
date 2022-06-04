@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 0 148px 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
 }
 
 @media screen and (max-width: 1140px) {
