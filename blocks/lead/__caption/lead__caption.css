@@ -8,4 +8,13 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
   align-self: start;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 984px) {
+  .lead__caption {
+    padding: 0 0 0 24px;
+  }
+  
 }
