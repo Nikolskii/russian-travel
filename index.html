@@ -19,21 +19,23 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" src="./images/lead-polka.jpg" alt="Карта путешествия">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__figure">
+        <img class="lead__image" src="./images/lead-polka.jpg" alt="Карта путешествия">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li class="intro__item">Часовых поясов 11</li>
-        <li class="intro__item">Объектов природного наследия ЮНЕСКО 12</li>
-        <li class="intro__item">Объектов культурного наследия ЮНЕСКО 16</li>
-        <li class="intro__item">Природных заповедников 105</li>
-        <li class="intro__item">Аэропортов 241</li>
+        <li class="intro__item">Часовых поясов <span class="intro__span-accent">11</span></li>
+        <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+        <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+        <li class="intro__item">Природных заповедников <span class="intro__span-accent">105</span></li>
+        <li class="intro__item">Аэропортов <span class="intro__span-accent">241</span></li>
       </ul>
     </section>
-    <div class="photo-grid">
+    <section class="photo-grid" aria-label="Фотографии">
       <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Поезд">
       <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Облака">
       <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Туман">
@@ -46,8 +48,8 @@
       <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
       <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Байкал">
       <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки">
-    </div>
-    <div class="places">
+    </section>
+    <section class="places" aria-label="Места">
       <article class="place">
         <h3 class="place__title">Куршская коса</h3>
         <div class="place__website">
@@ -116,7 +118,7 @@
           В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
           в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
       </article>
-    </div>
+    </section>
     <section class="cover">
       <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
         <h2 class="cover__title">До Байкала «на собаках»</h2>

@@ -52,5 +52,6 @@
 @media screen and (max-width: 568px) {
   .cover__link {
     min-height: 200px;
+    row-gap: 16px;
   }
 }
